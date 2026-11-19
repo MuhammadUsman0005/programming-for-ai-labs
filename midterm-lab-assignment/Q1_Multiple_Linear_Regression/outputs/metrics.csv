@@ -1,0 +1,4 @@
+Model,Test_MSE_USD_squared
+Gradient Descent (lambda=0),753796.7693733985
+scikit-learn LinearRegression,753796.7693734514
+Gradient Descent (lambda=0.1),772533.8775818327

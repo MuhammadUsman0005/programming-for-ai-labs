@@ -1,0 +1,8 @@
+{
+  "best_model": "Linear Regression",
+  "best_validation_rmsle": 0.15354499792621623,
+  "validation_metrics_csv": "model_comparison.csv",
+  "model_file": "best_house_model.joblib",
+  "prediction_file": "test_predictions.csv",
+  "note": "Metrics are from a validation split of train.csv. Kaggle test.csv has no public SalePrice labels."
+}

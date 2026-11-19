@@ -1,0 +1,4 @@
+Best model: Linear Regression
+Best validation RMSLE: 0.15354
+Predictions saved to test_predictions.csv
+Validation metrics come from train.csv; test.csv has no SalePrice labels.

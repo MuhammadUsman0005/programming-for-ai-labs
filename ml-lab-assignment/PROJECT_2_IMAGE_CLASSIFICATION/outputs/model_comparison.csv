@@ -1,0 +1,5 @@
+Model,Features,Training Accuracy,Testing Accuracy
+Logistic Regression,HOG,1.0,1.0
+Linear SVM,HOG,1.0,1.0
+Linear SVM,Raw Pixels,1.0,0.6
+Logistic Regression,Raw Pixels,1.0,0.4

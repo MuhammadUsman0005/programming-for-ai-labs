@@ -1,0 +1,33 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code workspace
+.vscode/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Local datasets - do not upload raw datasets
+**/data/*
+!**/data/README.md
+!**/data/README_DATA.md
+!**/data/.gitkeep

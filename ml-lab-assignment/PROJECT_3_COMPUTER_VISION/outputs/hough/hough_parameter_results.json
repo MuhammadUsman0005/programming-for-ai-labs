@@ -1,0 +1,8 @@
+{
+  "standard_hough_lines_threshold_150": 40,
+  "standard_hough_lines_threshold_530": 4,
+  "probabilistic_segments_min_length_40": 40,
+  "probabilistic_segments_min_length_540": 21,
+  "canny_low_threshold": 50,
+  "canny_high_threshold": 150
+}

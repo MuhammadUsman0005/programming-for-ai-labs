@@ -1,0 +1,120 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "tree_counts": [
+    1,
+    10,
+    50,
+    100,
+    300
+  ],
+  "max_images_per_class": 1200,
+  "image_size": [
+    24,
+    24
+  ],
+  "heart": {
+    "dataset_file": "heart_cleveland_upload.csv",
+    "rows": 297,
+    "features": 13,
+    "class_counts": {
+      "0": 160,
+      "1": 137
+    },
+    "model_comparison": [
+      {
+        "Model": "Decision Tree",
+        "Test_Accuracy": 0.7833333333333333,
+        "Training_Time_Seconds": 0.010046200000942918
+      },
+      {
+        "Model": "Random Forest (100 trees)",
+        "Test_Accuracy": 0.8833333333333333,
+        "Training_Time_Seconds": 0.1721360999981698
+      },
+      {
+        "Model": "Linear SVM (LinearSVC)",
+        "Test_Accuracy": 0.9166666666666666,
+        "Training_Time_Seconds": 0.006960499998967862
+      }
+    ],
+    "tree_count": [
+      {
+        "n_estimators": 1,
+        "test_accuracy": 0.8166666666666667
+      },
+      {
+        "n_estimators": 10,
+        "test_accuracy": 0.8333333333333334
+      },
+      {
+        "n_estimators": 50,
+        "test_accuracy": 0.85
+      },
+      {
+        "n_estimators": 100,
+        "test_accuracy": 0.8833333333333333
+      },
+      {
+        "n_estimators": 300,
+        "test_accuracy": 0.8666666666666667
+      }
+    ]
+  },
+  "intel": {
+    "image_root": "E:\\5th semester Sir Sajad Mid Term Lab Task 2 - ML\\Q2_Random_Forests\\data\\intel\\seg_test",
+    "samples": 3000,
+    "feature_count": 576,
+    "image_size": [
+      24,
+      24
+    ],
+    "class_counts": {
+      "buildings": 437,
+      "forest": 474,
+      "glacier": 553,
+      "mountain": 525,
+      "sea": 510,
+      "street": 501
+    },
+    "model_comparison": [
+      {
+        "Model": "Decision Tree",
+        "Test_Accuracy": 0.335,
+        "Training_Time_Seconds": 1.0041182000022673
+      },
+      {
+        "Model": "Random Forest (100 trees)",
+        "Test_Accuracy": 0.485,
+        "Training_Time_Seconds": 1.22729149999941
+      },
+      {
+        "Model": "Linear SVM (LinearSVC)",
+        "Test_Accuracy": 0.31833333333333336,
+        "Training_Time_Seconds": 7.4858308999973815
+      }
+    ],
+    "tree_count": [
+      {
+        "n_estimators": 1,
+        "test_accuracy": 0.32166666666666666
+      },
+      {
+        "n_estimators": 10,
+        "test_accuracy": 0.4166666666666667
+      },
+      {
+        "n_estimators": 50,
+        "test_accuracy": 0.4816666666666667
+      },
+      {
+        "n_estimators": 100,
+        "test_accuracy": 0.485
+      },
+      {
+        "n_estimators": 300,
+        "test_accuracy": 0.49166666666666664
+      }
+    ]
+  }
+}

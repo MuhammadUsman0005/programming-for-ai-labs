@@ -1,0 +1,4 @@
+Model,Test_Accuracy,Training_Time_Seconds
+Decision Tree,0.335,1.0041182000022673
+Random Forest (100 trees),0.485,1.22729149999941
+Linear SVM (LinearSVC),0.31833333333333336,7.4858308999973815

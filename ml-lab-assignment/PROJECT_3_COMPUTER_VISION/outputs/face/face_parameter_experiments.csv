@@ -1,0 +1,7 @@
+Input Image,scaleFactor,minNeighbors,minSize,Face Detections,Eye Detections
+face_single_astronaut.jpg,1.05,3,"(25, 25)",3,2
+face_single_astronaut.jpg,1.1,4,"(30, 30)",1,2
+face_single_astronaut.jpg,1.2,6,"(40, 40)",1,2
+face_multiple_lfw_montage.png,1.05,3,"(25, 25)",4,8
+face_multiple_lfw_montage.png,1.1,4,"(30, 30)",4,9
+face_multiple_lfw_montage.png,1.2,6,"(40, 40)",4,8

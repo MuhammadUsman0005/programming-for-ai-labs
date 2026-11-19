@@ -1,0 +1,3 @@
+Method,Keypoints Image 1,Keypoints Image 2,Candidate Pairs,Accepted Matches,Accepted/Candidate Ratio,Processing Time (seconds)
+ORB,1034,1000,1034,495,0.4787234042553192,0.01405811500001164
+SIFT,309,490,309,194,0.627831715210356,0.18059184899999536

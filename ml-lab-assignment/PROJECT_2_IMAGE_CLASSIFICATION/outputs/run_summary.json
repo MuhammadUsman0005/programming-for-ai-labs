@@ -1,0 +1,16 @@
+{
+  "best_model": "Logistic Regression + HOG",
+  "feature_type": "hog",
+  "testing_accuracy": 1.0,
+  "training_accuracy": 1.0,
+  "class_counts": {
+    "Cars": 7,
+    "Cricket Balls": 7,
+    "Ice-Cream Cones": 5
+  },
+  "random_state": 42,
+  "image_size": [
+    64,
+    64
+  ]
+}

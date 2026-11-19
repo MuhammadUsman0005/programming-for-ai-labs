@@ -1,0 +1,34 @@
+{
+  "rows_used": 20,
+  "train_rows": 16,
+  "test_rows": 4,
+  "features": [
+    "age",
+    "experience"
+  ],
+  "feature_scaling": "z-score using train data only",
+  "learning_rate": 0.05,
+  "iterations": 2000,
+  "main_lambda": 0.1,
+  "target_divisor": 1000.0,
+  "regularized_train_mse_usd_squared": 1743385.796217695,
+  "regularized_test_mse_usd_squared": 772533.8775818327,
+  "gradient_descent_lambda_0_test_mse_usd_squared": 753796.7693733985,
+  "sklearn_linear_regression_test_mse_usd_squared": 753796.7693734514,
+  "theta_regularized": [
+    42.42624999999993,
+    -0.8466484332975892,
+    8.395193121443567
+  ],
+  "theta_unregularized": [
+    42.42624999999993,
+    -0.8845389460880717,
+    8.465285430134601
+  ],
+  "sklearn_intercept_scaled_target": 42.426249999999996,
+  "sklearn_coefficients_scaled_target": [
+    -0.8845389460880811,
+    8.46528543013462
+  ],
+  "warning": "Replace this summary in your report with your real run; no metrics are prefilled."
+}
